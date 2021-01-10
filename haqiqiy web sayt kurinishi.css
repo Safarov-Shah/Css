@@ -1,0 +1,78 @@
+body, h1, h2,  p {
+    margin: 0;
+    background-image: url(uy.jpg);
+} 
+
+ #header {
+  
+ }
+
+ .container {
+     width:70%;
+     margin: 0 auto;
+ }
+
+#header h1 {
+  color: #fff;
+  font-family:sans-serif;
+  padding: 10px 0;
+}
+
+  #navbar {
+
+  }
+
+
+  #navbar ul li {
+      list-style-type: none;
+      display: inline;
+  }
+
+  #navbar ul li  a {
+    text-decoration: none;
+    color: cyan;
+    padding:5px 5px;
+    display:inline-block;
+    font-family: sans-serif;
+}
+  #navbar ul li:first-child a {
+      padding-left: 0;
+  }
+
+#showcase {
+     background-image: url(dengiz 1.jpg);
+     background-position: center;
+}
+
+#showcase h3{
+  color: #fff;
+  font-size: 20px;
+  font-family: Durandal Cyrillic Light;
+  padding-top:50px;
+  text-align: center;
+}
+
+#main {
+  color: #555;
+  margine-top:30px;
+}
+
+#main h2{
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.content {
+  float: left;
+  width: 70%;
+  padding right:10px;
+
+  box-sizing: border-box;
+}
+
+.sidebar{
+  float: left;
+  width: 30%;
+  padding: 5 10px;
+  box-sizing: border-box;
+}
